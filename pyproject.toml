@@ -1,0 +1,8 @@
+[project]
+name = "mexico-real-estate-analysis"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "pandas>=3.0.6",
+]
