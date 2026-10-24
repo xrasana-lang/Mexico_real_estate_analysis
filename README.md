@@ -46,7 +46,8 @@ Every cleaning decision is recorded in the cleaning log inside the notebook.
 │   ├── raw/          # original CSVs, never edited
 │   └── processed/    # cleaned, combined dataset
 ├── notebooks/
-│   └── 01_getting_to_know_the_data.ipynb
+│   ├── 01_getting_to_know_the_data.ipynb
+│   └── 02_visualising_housing_data.ipynb
 ├── pyproject.toml    # project dependencies
 └── uv.lock           # exact package versions
 ```
@@ -58,3 +59,11 @@ Every cleaning decision is recorded in the cleaning log inside the notebook.
 3. Open `notebooks/01_getting_to_know_the_data.ipynb`, select the `.venv` kernel and choose **Run All**.
 
 Note: pandas 3.0 labels text columns `str`; older versions show `object`.
+
+## Visualisation findings
+
+- Property prices and areas are right-skewed, with prices more strongly skewed.
+- House and apartment median prices are similar, at approximately $98k–$99k.
+- Price has a weak-to-moderate positive visual relationship with property area, but prices vary widely at similar sizes.
+- Price levels and the apparent strength of the size–price relationship differ across Distrito Federal, Estado de México, and Yucatán.
+- These are exploratory visual observations, not statistically tested conclusions. State-level comparisons are also affected by differences in listing counts.
