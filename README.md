@@ -67,3 +67,14 @@ Note: pandas 3.0 labels text columns `str`; older versions show `object`.
 - Price has a weak-to-moderate positive visual relationship with property area, but prices vary widely at similar sizes.
 - Price levels and the apparent strength of the size–price relationship differ across Distrito Federal, Estado de México, and Yucatán.
 - These are exploratory visual observations, not statistically tested conclusions. State-level comparisons are also affected by differences in listing counts.
+
+## Correlation analysis findings
+
+- Property area and price have a moderate positive Pearson correlation (\(r \approx 0.586\)) across the 1,736 listings.
+- The squared correlation (\(r^2 \approx 0.343\)) indicates that the linear relationship accounts for about 34% of the observed variation in price in this dataset. This is an association, not evidence of causation.
+- The area–price correlation differs by property type: approximately 0.519 for apartments and 0.719 for houses.
+- Latitude and longitude have a correlation of approximately -0.480. This describes a geographic pattern in the coordinates and should not be interpreted as a direct effect of location on price.
+- The price-per-square-metre scatterplot suggests a curved downward pattern as property area increases, indicating that the relationship may not be fully described by a linear correlation.
+- State-level correlations vary, but results for states with very few listings can be unstable and should not be interpreted as reliable estimates.
+
+These findings are exploratory and describe this dataset. They do not establish causal relationships or prove that the same patterns hold across the entire Mexican property market.
