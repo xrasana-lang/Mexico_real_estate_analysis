@@ -47,7 +47,8 @@ Every cleaning decision is recorded in the cleaning log inside the notebook.
 │   └── processed/    # cleaned, combined dataset
 ├── notebooks/
 │   ├── 01_getting_to_know_the_data.ipynb
-│   └── 02_visualising_housing_data.ipynb
+│   ├── 02_visualising_housing_data.ipynb
+│   └── 03_correlation_and_variable_relationships.ipynb
 ├── pyproject.toml    # project dependencies
 └── uv.lock           # exact package versions
 ```
