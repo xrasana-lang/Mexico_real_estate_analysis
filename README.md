@@ -42,15 +42,18 @@ Every cleaning decision is recorded in the cleaning log inside the notebook.
 ## Repository structure
 
 ```
+Mexico_real_estate_analysis/
 ├── data/
 │   ├── raw/          # original CSVs, never edited
 │   └── processed/    # cleaned, combined dataset
 ├── notebooks/
 │   ├── 01_getting_to_know_the_data.ipynb
 │   ├── 02_visualising_housing_data.ipynb
-│   └── 03_correlation_and_variable_relationships.ipynb
+│   ├── 03_correlation_and_variable_relationships.ipynb
+│   └── 04_price_per_m2_and_location_effects.ipynb
 ├── pyproject.toml    # project dependencies
-└── uv.lock           # exact package versions
+├── uv.lock           # exact package versions
+└── README.md
 ```
 
 ## How to reproduce
